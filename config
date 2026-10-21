@@ -1,0 +1,17 @@
+Host github-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_25519_github_personal
+    IdentitiesOnly yes
+
+Host github-trabajo
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_trabajo
+    IdentitiesOnly yes
+
+Host squid
+    HostName 192.168.0.180
+    User diana
+    IdentityFile ~/.ssh/id_25519
+    IdentitiesOnly yes
